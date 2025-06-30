@@ -1,25 +1,6 @@
-# TypeScript Basics Tu## 🚀 Installation และ usage
+# TypeScript Basics Tutorial
 
-### 1. #### Production build (compile แล้วรัน)
-```powershell
-# Build TypeScript เป็น JavaScript
-npm run build
-
-# รัน compiled JavaScript
-npm start
-```dependencies
-```powershell
-npm install
-```
-
-### 2. วิธีการ run program
-
-#### Development mode (ใช้ ts-node)
-```powershell
-# รัน main file
-npm run devยนรู้ TypeScript fundamentals พร้อม comprehensive examples
-
-## 📋 Learning content
+## 📋 Learning Content
 
 ### พื้นฐาน (Basic Concepts)
 - ✅ **Basic Types**: string, number, boolean, array, tuple, any, unknown
@@ -37,36 +18,36 @@ npm run devยนรู้ TypeScript fundamentals พร้อม comprehensive
 - ✅ **Type Guards**: การป้องกันและตรวจสอบ type
 - ✅ **Modules**: import/export system
 
-## 🚀 การติดตั้งและใช้งาน
+## 🚀 Installation และ Usage
 
-### 1. ติดตั้ง Dependencies
+### 1. Install Dependencies
 ```powershell
 pnpm install
 ```
 
-### 2. วิธีการรันโปรแกรม
+### 2. วิธี Run Program
 
-#### รันแบบ Development (ใช้ ts-node)
+#### Development Mode (ใช้ ts-node)
 ```powershell
-# รันไฟล์หลัก
+# รัน main file
 pnpm run dev
+```
 
-#### รัน file เฉพาะ
+#### Run File เฉพาะ
 ```powershell
 # รัน file ที่ต้องการ
-ppnpm ts-node src/01-basic-types.ts       # Basic data types
-ppnpm ts-node src/02-objects-interfaces.ts # Objects และ interfaces
-ppnpm ts-node src/03-functions.ts          # Functions
-ppnpm ts-node src/04-classes.ts            # Classes
-ppnpm ts-node src/05-enums-unions.ts       # Enums และ union types
-ppnpm ts-node src/06-generics.ts           # Generics
-ppnpm ts-node src/07-advanced-types.ts     # Advanced types
-ppnpm ts-node src/08-async-await.ts        # Async/Await
-ppnpm ts-node src/09-scope-variables.ts    # Scope variables
-```
+pnpm ts-node src/01-basic-types.ts       # Basic data types
+pnpm ts-node src/02-objects-interfaces.ts # Objects และ interfaces
+pnpm ts-node src/03-functions.ts          # Functions
+pnpm ts-node src/04-classes.ts            # Classes
+pnpm ts-node src/05-enums-unions.ts       # Enums และ union types
+pnpm ts-node src/06-generics.ts           # Generics
+pnpm ts-node src/07-advanced-types.ts     # Advanced types
+pnpm ts-node src/08-async-await.ts        # Async/Await
+pnpm ts-node src/09-scope-variables.ts    # Scope variables
 ```
 
-#### รันแบบ Production (compile แล้วรัน)
+#### Production Mode (compile แล้ว run)
 ```powershell
 # Build TypeScript เป็น JavaScript
 pnpm run build
@@ -75,7 +56,7 @@ pnpm run build
 pnpm start
 ```
 
-#### Watch Mode (auto-compile เมื่อมี changes)
+#### Watch Mode (auto-compile เมื่อมี change)
 ```powershell
 pnpm run watch
 ```
@@ -100,7 +81,7 @@ TypescriptBasics/
 └── README.md                     # Documentation
 ```
 
-## 📚 Chapter details
+## 📚 Chapter Details
 
 ### Chapter 1: Basic Types (01-basic-types.ts)
 - String, Number, Boolean
@@ -162,7 +143,7 @@ TypescriptBasics/
 - Scope chain ใน loops และ closures
 - Best practices และ common pitfalls
 
-## 📚 Code examples
+## 📚 Code Examples
 
 ### Basic Example
 ```typescript
@@ -216,22 +197,22 @@ let counter = 0;                   // mutable variable
 // avoid var in modern code
 ```
 
-## 🛠️ Available scripts
+## 🛠️ Available Scripts
 
 | Command | Description |
 |---------|----------|
 | `pnpm run dev` | รัน TypeScript files โดยตรง (development mode) |
 | `pnpm run build` | Compile TypeScript เป็น JavaScript |
 | `pnpm start` | รัน compiled JavaScript files |
-| `pnpm run watch` | Watch mode - auto-compile เมื่อมี file changes |
+| `pnpm run watch` | Watch mode - auto-compile เมื่อมี file change |
 
-## 📖 Documentation
+## 📖 เอกสารอ้างอิง
 
 - [TypeScript Official Documentation](https://www.typescriptlang.org/docs/)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [TypeScript Playground](https://www.typescriptlang.org/play) - ทดลองเขียน TypeScript online
 
-## 💡 Tips for beginners
+## 💡 เคล็ดลับสำหรับผู้เริ่มต้น
 
 1. **เริ่มต้นด้วย type annotations**: ช่วยให้เข้าใจ TypeScript type system
 2. **ใช้ interfaces สำหรับ object contracts**: เพิ่ม code maintainability
@@ -239,7 +220,7 @@ let counter = 0;                   // mutable variable
 4. **ใช้ VS Code หรือ IDE ที่ support TypeScript**: IntelliSense ช่วยได้มาก
 5. **อ่าน compiler error messages**: TypeScript errors ให้ข้อมูลที่ useful
 
-## 🎯 Next steps
+## 🎯 ขั้นตอนต่อไป
 
 หลังจากเรียนรู้ fundamentals แล้ว แนะนำให้ศึกษาต่อ:
 - **React with TypeScript** - Frontend development
